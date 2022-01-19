@@ -1,2 +1,2 @@
-# randommonsters
-A version of Exquisite Corpse with random monster parts
+# randomcreatures
+A version of Exquisite Corpse with creature parts.
