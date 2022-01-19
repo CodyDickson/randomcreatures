@@ -6,7 +6,16 @@ namespace ExquisiteCorpse
   {
     static void Main(string[] args)
     {
-      BuildACreature("monster", "bug", "bug");
+      Console.WriteLine("Welcome to the Random Creature Generator. Let's build together!");
+      Console.WriteLine("Our options today are ghost, monster, and bug.");
+      Console.Write("What kind of head would you like? ");
+      string headChoice = Console.ReadLine();
+      Console.Write("What kind of body would you like? ");
+      string bodyChoice = Console.ReadLine();
+      Console.Write("What kind of feet would you like? ");
+      string feetChoice = Console.ReadLine();
+      Console.WriteLine("Here is your creature. Spooky!");
+      BuildACreature(headChoice, bodyChoice, feetChoice);
     }
 
     static void BuildACreature(string head, string body, string feet)
